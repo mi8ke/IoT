@@ -3,4 +3,4 @@
   functions = "lambda"
 
 [dev]
-  command = "node server.js
+  command = "node server.js"
