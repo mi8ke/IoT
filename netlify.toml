@@ -1,5 +1,5 @@
 [build]
-  command = "npm install && npm run build"  # ビルドコマンドは適切なものに変更するか、不要な場合はコメントアウト
+  command = "npm install"  # ビルドコマンドは適切なものに変更するか、不要な場合はコメントアウト
   functions = "lambda"
 
 [dev]
