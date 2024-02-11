@@ -1,19 +1,6 @@
 [build]
-  command = "npm install"  # ビルドコマンドは適切なものに変更するか、不要な場合はコメントアウト
+  command = "npm install"
   functions = "lambda"
 
 [dev]
-  command = "node server.js  # ローカル開発用のコマンド。必要に応じて変更する。
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
-
-[headers]
-  "/*" = [
-    "Cache-Control: max-age=300",
-    "X-Frame-Options: DENY",
-    "X-XSS-Protection: 1; mode=block",
-    "X-Content-Type-Options: nosniff"
-  ]
+  command = "node server.js
